@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/*top bar*/
+.nav-funcation-bar {
+    color: #fff;
+    float: left;
+    line-height: 50px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.BCMS-top-bar {
+    background-color: #668FB9;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #fff;
+}
+body#dummybodyid {
+    background-color: #3C3C3C;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+label.icon-color {
+    color: #FFF;
+}
+h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+h4:hover {
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.text-muted{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    max-height: 32px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.img-responsive {
+    background-color: black;
+}
+.img_outer {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    margin: auto;
+    overflow: hidden;
+}
+.user-icon img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+    border-style: double;
+    border-width: 1px;
+    border-color: #fff;
+}
